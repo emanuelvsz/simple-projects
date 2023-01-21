@@ -7,16 +7,7 @@ import (
 )
 
 func main() {
-
-	var name *string
-	var n string
-	n = "felipe2"
-	name = &n
-
-	fmt.Println(*name)
-
 	getChoose()
-
 }
 
 func getChoose() {
