@@ -1,0 +1,12 @@
+#tagCanvas {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    background-color: white;
+}
+
+i {
+    height: 400px;
+    width: 400px;
+    color: #000;
+}
