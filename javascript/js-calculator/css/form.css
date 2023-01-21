@@ -1,0 +1,30 @@
+#formulario {
+    height: 500px;
+    width: 400px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 4%;
+}
+
+#formulario > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#submit{
+    width: 175px;
+    height: 40px;
+    border: none;
+    border-radius: 3%;
+}
+
+.text-input{
+    height: 30px;
+    width: 175px;
+    border: none;
+    border-radius: 3%;
+}
