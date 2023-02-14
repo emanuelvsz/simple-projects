@@ -8,7 +8,7 @@ import (
 )
 
 func ListSongs(c echo.Context) error {
-	ListSongs := data.Songs
+	listSongs := data.Songs
 
-	return c.JSON(http.StatusOK, ListSongs)
+	return c.JSON(http.StatusOK, listSongs)
 }

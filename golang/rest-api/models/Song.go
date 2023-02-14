@@ -6,4 +6,5 @@ type Song struct {
 	Name        string
 	ReleaseDate string
 	Duration    float32
+	Genre       []Genre
 }

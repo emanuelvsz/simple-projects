@@ -9,6 +9,16 @@ var Songs = []models.Song{
 		Name:        "Late Night Talking",
 		ReleaseDate: "10/12/2022",
 		Duration:    3.42,
+		Genre: []models.Genre{
+			{
+				ID: 1,
+				Name: "Pop",
+			},
+			{
+				ID: 2,
+				Name: "Pop internacional",
+			},
+		},
 	},
 	{
 		ID:          101,
@@ -16,6 +26,16 @@ var Songs = []models.Song{
 		Name:        "Run",
 		ReleaseDate: "10/12/2020",
 		Duration:    4.40,
+		Genre: []models.Genre{
+			{
+				ID: 1,
+				Name: "Pop",
+			},
+			{
+				ID: 2,
+				Name: "Pop Rock",
+			},
+		},
 	},
 	{
 		ID:          102,
@@ -23,13 +43,33 @@ var Songs = []models.Song{
 		Name:        "Sign of the Times",
 		ReleaseDate: "10/12/2022",
 		Duration:    3.42,
+		Genre: []models.Genre{
+			{
+				ID: 1,
+				Name: "Pop",
+			},
+			{
+				ID: 2,
+				Name: "Pop internacional",
+			},
+		},
 	},
 	{
 		ID:          103,
 		ArtistID:    2,
-		Name:        "LTEST DRIVE",
+		Name:        "TEST DRIVE",
 		ReleaseDate: "10/12/2018",
 		Duration:    2.34,
+		Genre: []models.Genre{
+			{
+				ID: 1,
+				Name: "Pop",
+			},
+			{
+				ID: 2,
+				Name: "Pop melancólico",
+			},
+		},
 	},
 	{
 		ID:          104,
@@ -37,6 +77,16 @@ var Songs = []models.Song{
 		Name:        "Sanctuary",
 		ReleaseDate: "10/12/2018",
 		Duration:    3.34,
+		Genre: []models.Genre{
+			{
+				ID: 1,
+				Name: "Pop",
+			},
+			{
+				ID: 2,
+				Name: "Pop Indie",
+			},
+		},
 	},
 	{
 		ID:          105,
@@ -44,5 +94,15 @@ var Songs = []models.Song{
 		Name:        "She",
 		ReleaseDate: "10/12/2021",
 		Duration:    3.42,
+		Genre: []models.Genre{
+			{
+				ID: 1,
+				Name: "Pop",
+			},
+			{
+				ID: 2,
+				Name: "Pop Rock",
+			},
+		},
 	},
 }

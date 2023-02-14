@@ -15,6 +15,7 @@ func main() {
 
 	e.GET("/artists", handlers.ListArtists)
 	e.GET("/songs", handlers.ListSongs)
+	e.GET("/genres", handlers.ListGenres)
 
 	e.Logger.Fatal(e.Start(":8081"))
 }
