@@ -1,7 +1,6 @@
 package handlers
 
 import (
-	"fmt"
 	"main/utils/data"
 	"net/http"
 	"strconv"
@@ -18,17 +17,13 @@ func ListArtists(c echo.Context) error {
 func ListArtistByID(c echo.Context) error {
 	artistList := data.Artists
 
-	id := c.QueryParam("id")
-
-	fmt.Print(id + "AA")
+	id := c.Param("id")
 
 	artistID, err := strconv.Atoi(id)
 
-	fmt.Print(artistID)
 	if err != nil {
 		artistID = 1
 	}
-	fmt.Print(artistID)
 
 	for i := 0; i < len(data.Artists); i++ {
 		if artistList[i].ID == artistID {
