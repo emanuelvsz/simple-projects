@@ -1,6 +1,7 @@
 package handlers
 
 import (
+	"main/api/utils"
 	"main/utils/data"
 	"net/http"
 	"strconv"
@@ -17,7 +18,7 @@ func ListGenres(c echo.Context) error {
 func ListGenreByID(context echo.Context) error {
 	genreList := data.Genres
 
-	id := context.Param("id")
+	id := context.Param(utils.GenreID)
 
 	genreID, err := strconv.Atoi(id)
 	if err != nil {

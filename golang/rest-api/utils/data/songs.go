@@ -7,15 +7,15 @@ var Songs = []models.Song{
 		ID:          100,
 		ArtistID:    1,
 		Name:        "Late Night Talking",
-		ReleaseDate: "10/12/2022",
+		ReleaseDate: "2022",
 		Duration:    3.42,
 		Genre: []models.Genre{
 			{
-				ID: 1,
+				ID:   1,
 				Name: "Pop",
 			},
 			{
-				ID: 2,
+				ID:   2,
 				Name: "Pop internacional",
 			},
 		},
@@ -24,15 +24,15 @@ var Songs = []models.Song{
 		ID:          101,
 		ArtistID:    2,
 		Name:        "Run",
-		ReleaseDate: "10/12/2020",
+		ReleaseDate: "2020",
 		Duration:    4.40,
 		Genre: []models.Genre{
 			{
-				ID: 1,
+				ID:   1,
 				Name: "Pop",
 			},
 			{
-				ID: 2,
+				ID:   2,
 				Name: "Pop Rock",
 			},
 		},
@@ -41,15 +41,15 @@ var Songs = []models.Song{
 		ID:          102,
 		ArtistID:    1,
 		Name:        "Sign of the Times",
-		ReleaseDate: "10/12/2022",
+		ReleaseDate: "2017",
 		Duration:    3.42,
 		Genre: []models.Genre{
 			{
-				ID: 1,
+				ID:   1,
 				Name: "Pop",
 			},
 			{
-				ID: 2,
+				ID:   2,
 				Name: "Pop internacional",
 			},
 		},
@@ -58,15 +58,15 @@ var Songs = []models.Song{
 		ID:          103,
 		ArtistID:    2,
 		Name:        "TEST DRIVE",
-		ReleaseDate: "10/12/2018",
+		ReleaseDate: "2018",
 		Duration:    2.34,
 		Genre: []models.Genre{
 			{
-				ID: 1,
+				ID:   1,
 				Name: "Pop",
 			},
 			{
-				ID: 2,
+				ID:   2,
 				Name: "Pop melancólico",
 			},
 		},
@@ -79,11 +79,11 @@ var Songs = []models.Song{
 		Duration:    3.34,
 		Genre: []models.Genre{
 			{
-				ID: 1,
+				ID:   1,
 				Name: "Pop",
 			},
 			{
-				ID: 2,
+				ID:   2,
 				Name: "Pop Indie",
 			},
 		},
@@ -92,16 +92,84 @@ var Songs = []models.Song{
 		ID:          105,
 		ArtistID:    1,
 		Name:        "She",
-		ReleaseDate: "10/12/2021",
+		ReleaseDate: "2019",
 		Duration:    3.42,
 		Genre: []models.Genre{
 			{
-				ID: 1,
+				ID:   1,
 				Name: "Pop",
 			},
 			{
-				ID: 2,
+				ID:   2,
 				Name: "Pop Rock",
+			},
+		},
+	},
+	{
+		ID:          106,
+		ArtistID:    1,
+		Name:        "Falling",
+		ReleaseDate: "2019",
+		Duration:    3.42,
+		Genre: []models.Genre{
+			{
+				ID:   1,
+				Name: "Pop",
+			},
+			{
+				ID:   2,
+				Name: "Pop Rock",
+			},
+		},
+	},
+	{
+		ID:          107,
+		ArtistID:    3,
+		Name:        "Pictures of Girls",
+		ReleaseDate: "2018",
+		Duration:    3.24,
+		Genre: []models.Genre{
+			{
+				ID:   1,
+				Name: "Indie",
+			},
+			{
+				ID:   2,
+				Name: "Indie Rock",
+			},
+		},
+	},
+	{
+		ID:          108,
+		ArtistID:    3,
+		Name:        "Scrawny",
+		ReleaseDate: "2019",
+		Duration:    2.46,
+		Genre: []models.Genre{
+			{
+				ID:   1,
+				Name: "Indie",
+			},
+			{
+				ID:   2,
+				Name: "Indie Pop",
+			},
+		},
+	},
+	{
+		ID:          109,
+		ArtistID:    3,
+		Name:        "Are you bored yet?",
+		ReleaseDate: "2019",
+		Duration:    2.58,
+		Genre: []models.Genre{
+			{
+				ID:   1,
+				Name: "Indie",
+			},
+			{
+				ID:   2,
+				Name: "Indie Pop",
 			},
 		},
 	},

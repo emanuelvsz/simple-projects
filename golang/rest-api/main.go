@@ -14,11 +14,13 @@ func main() {
 	e.Use(middleware.Recover())
 
 	e.GET("/artist", handlers.ListArtists)
-	e.GET("/artist/:id", handlers.ListArtistByID)
+	e.GET("/artist/:artistID", handlers.ListArtistByID)
+	e.GET("/artist/:artistID/song", handlers.ListSongsByArtistID)
 	e.GET("/song", handlers.ListSongs)
-	e.GET("/song/:id", handlers.ListSongByID)
+	e.GET("/song/:songID", handlers.ListSongByID)
 	e.GET("/genre", handlers.ListGenres)
-	e.GET("/genre/:id", handlers.ListGenreByID)
+	e.GET("/genre/:genreID", handlers.ListGenreByID)
+	// e.GET("/artist/:artistID/album", handlers.ListAlbums)
 
 	e.Logger.Fatal(e.Start(":8082"))
 }
