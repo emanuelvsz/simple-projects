@@ -16,18 +16,23 @@ func ListArtists(c echo.Context) error {
 }
 
 func ListArtistByID(c echo.Context) error {
-	id := c.QueryParam("artist/:artistID")
+	artistList := data.Artists
+
+	id := c.QueryParam("id")
+
+	fmt.Print(id + "AA")
 
 	artistID, err := strconv.Atoi(id)
+
+	fmt.Print(artistID)
 	if err != nil {
-		return http.ErrAbortHandler
+		artistID = 1
 	}
+	fmt.Print(artistID)
 
 	for i := 0; i < len(data.Artists); i++ {
-		if data.Artists[i].ID == artistID {
-			artist := data.Artists[i]
-			fmt.Println("Eoias")
-			return c.JSON(http.StatusOK, artist)
+		if artistList[i].ID == artistID {
+			return c.JSON(http.StatusOK, artistList[i])
 		}
 	}
 
