@@ -5,5 +5,5 @@ type Artist struct {
 	Name  string   `json:"name"`
 	Genre []string `json:"genres"`
 	Age   int      `json:"age"`
-	Songs []string `json:"songs"`
+	Songs []Song   `json:"songs"`
 }
