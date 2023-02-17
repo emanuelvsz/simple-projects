@@ -17,10 +17,9 @@ func ListArtists(c echo.Context) error {
 func ListArtistByID(c echo.Context) error {
 	artistList := data.Artists
 
-	id := c.Param("id")
+	artistId := c.Param("id")
 
-	artistID, err := strconv.Atoi(id)
-
+	artistID, err := strconv.Atoi(artistId)
 	if err != nil {
 		artistID = 1
 	}

@@ -15,8 +15,10 @@ func main() {
 
 	e.GET("/artist", handlers.ListArtists)
 	e.GET("/artist/:id", handlers.ListArtistByID)
-	e.GET("/songs", handlers.ListSongs)
-	e.GET("/genres", handlers.ListGenres)
+	e.GET("/song", handlers.ListSongs)
+	e.GET("/song/:id", handlers.ListSongByID)
+	e.GET("/genre", handlers.ListGenres)
+	e.GET("/genre/:id", handlers.ListGenreByID)
 
 	e.Logger.Fatal(e.Start(":8082"))
 }
