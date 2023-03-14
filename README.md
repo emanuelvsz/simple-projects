@@ -11,4 +11,5 @@
   * Simple code that gaves you a ip of any link of internet  - <a href="./golang/ip-finder">check here</a>
   * Simple code that read a csv  document and create one too  - <a href="./golang/csv-reader.create">check here</a>
   * Rest API made by echo, that has some routes that return some data of artists and their songs  - <a href="./golang/rest-api">check here</a>
+  * Some projects of a course in Udemy <a href="./golang/udemy-course">click here</a>
 * C
