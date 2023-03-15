@@ -1,5 +1,7 @@
 package models
 
 type Data struct {
-	Name string
+	ArtisticName string
+	Name         string
+	Age          int
 }

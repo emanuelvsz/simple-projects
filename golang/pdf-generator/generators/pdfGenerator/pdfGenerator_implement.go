@@ -8,15 +8,15 @@ import (
 	"github.com/google/uuid"
 )
 
-type wkhtmlt struct {
+type wkhtml struct {
 	rootPath string
 }
 
 func NewWKHTMLToPDF(rootPath string) PDFGeneratorInterface {
-	return &wkhtmlt{rootPath: rootPath}
+	return &wkhtml{rootPath: rootPath}
 }
 
-func (w *wkhtmlt) Create(htmlFile string) (string, error) {
+func (w *wkhtml) Create(htmlFile string) (string, error) {
 	file, err := os.Open(htmlFile)
 	if err != nil {
 		return "erro aqui 1", nil

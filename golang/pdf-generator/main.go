@@ -12,7 +12,9 @@ func main() {
 	wk := pdfGenerator.NewWKHTMLToPDF("tmp/pdf")
 
 	dataHTML := models.Data{
-		Name: "Emanuel",
+		ArtisticName: "Harry Styles",
+		Name:         "Harry Sebastian Styles",
+		Age:          28,
 	}
 
 	htmlGenerated, err := h.Create("./utils/templates/pdf.html", dataHTML)
