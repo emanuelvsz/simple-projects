@@ -12,9 +12,11 @@ func main() {
 	wk := pdfGenerator.NewWKHTMLToPDF("tmp/pdf")
 
 	dataHTML := models.Data{
-		ArtisticName: "Harry Styles",
-		Name:         "Harry Sebastian Styles",
-		Age:          28,
+		Name:        "Emanuel Vilela de Souza",
+		Age:         19,
+		Description: "Curto muito música e amo programar",
+		Formation:   "Formado em Técnico em Informática no Instituto Federal de Alagoas(IFAL) e cursando Sistemas de Informação(IFAL)",
+		CPF:         "105.539.714-09",
 	}
 
 	htmlGenerated, err := h.Create("./utils/templates/pdf.html", dataHTML)
@@ -30,5 +32,4 @@ func main() {
 		return
 	}
 	fmt.Println("PDF gerado: ", filePDFName)
-
 }

@@ -1,7 +1,9 @@
 package models
 
 type Data struct {
-	ArtisticName string
-	Name         string
-	Age          int
+	Name        string
+	Age         int16
+	Description string
+	Formation   string
+	CPF         string
 }
