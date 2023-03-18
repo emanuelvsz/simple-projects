@@ -3,6 +3,7 @@
 Inicialmente, é bom saber um pouco do que é o ``Go``. O Golang, ou mais conhecido como ``Go``, é a linguagem de programação criada pela Google em 2009. Ela foi criada tendo como objetivo revolucionar as linguagens de programação não-orientadas à objetos, sendo ela mais utilizada na produção de back-ends de códigos.
 > back-end: É o código que conecta a internet com o banco de dados, gerencia as conexões dos usuários e alimenta a aplicação web
 
+
 ## Pacotes
 
 Os pacotes em golang são uma forma de conseguir coletar dados de arquivos diferentes dentro de seu código. Além de melhorar a organização do mesmo.
@@ -177,4 +178,3 @@ Arrays tem um limite propriamente definido no código. Já os slices, não!
 arr := []int{1, 2, 3 , 4, 5,...} // declarando um slice, de x posições e do tipo inteiro
 arr = append(arr, 1) // adicionando o valor 1 na posição seguinte do slice
 
-  
