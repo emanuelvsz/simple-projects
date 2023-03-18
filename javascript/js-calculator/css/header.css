@@ -1,0 +1,28 @@
+header{
+    height: 70px;
+    width: 100vw;
+    background-color: #0e0e0e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle {
+    height: 50px;
+    width: 50px;
+    background-color: wheat;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle > p {
+    font-size: 13px;
+    color: #000;
+    
+}
+
+#header-link {
+    text-decoration: none;
+}
