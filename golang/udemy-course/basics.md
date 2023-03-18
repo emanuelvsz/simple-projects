@@ -7,6 +7,7 @@
    * ``string``: caracter (por padrão: "")
    * ``bool``: variável de decisão (por padrão: false)
    * ``error``: variável que retorna um tipo de erro (por padrão: nil)
+   * ``byte``: um alias pro ``int8``
 
 ### Como declarar variáveis em go?
 
@@ -14,4 +15,6 @@ São algumas as formas de declarar variáveis em ``go``, mesmo a linguagem sendo
 
 - 1° forma: ``var num int = 1`` (declarando o tipo da variável ``com`` tipagem)
 - 2° forma: ``num := 1`` (declarando o tipo da variável ``sem``  tipagem)
+
+
 
