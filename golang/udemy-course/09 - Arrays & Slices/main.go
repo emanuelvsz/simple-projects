@@ -23,5 +23,4 @@ func main() {
 	slice = append(slice, 100)
 
 	fmt.Println(slice)
-
 }
