@@ -174,7 +174,7 @@ Arrays tem um limite propriamente definido no código. Já os slices, não!
   
 ```
 ### Como declarar e atribuir valores nas posições dos arrays?
-  
+ 
+```
 arr := []int{1, 2, 3 , 4, 5,...} // declarando um slice, de x posições e do tipo inteiro
-arr = append(arr, 1) // adicionando o valor 1 na posição seguinte do slice
-
+arr = append(arr, 1) // adicionando o valor 1 na posição seguinte do slice````
