@@ -185,6 +185,3 @@ arr = append(arr, 1) // adicionando o valor 1 na posição seguinte do slice
 ### O que são? 
   
 Os maps são semelhantes aos structs, porém, eles tem algumas limitações. Por exemplo: os maps têm que ter seu tipo de dado definido e o tipo do valor do dado tem que ser definido também! Veja um exemplo: 
-  
-
-  
