@@ -22,7 +22,7 @@ func (a *htmlStruct) Create(templateName string, data interface{}) (string, erro
 	if err != nil {
 		return msgs.GenerateTemplateError, nil
 	}
-	fileName := a.rootPath + "/" + uuid.New().String() + ".html" // dá um nome unico ao arquivo 
+	fileName := a.rootPath + "/" + uuid.New().String() + ".html" // da um nome unico ao arquivo 
 
 	fmt.Println(fileName)
 
