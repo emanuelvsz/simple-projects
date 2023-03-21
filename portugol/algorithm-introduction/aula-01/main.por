@@ -12,10 +12,14 @@ programa {
     leia(b4)
 
     result = (b1+b2+b3+b4)/4
-    escreva(result)
 
-    se (result < 10){
-      escreva("\neita")
+    escreva("média: ", result)
+
+    se (result <= 6){
+      escreva("\nInfelizmente o aluno não conseguiu passar")
     } 
+    senao {
+      escreva("\nO aluno passou de ano!!!")
+    }
   }
 }
