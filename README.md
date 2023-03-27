@@ -14,3 +14,5 @@
   * Some projects of a course in Udemy <a href="./golang/udemy-course">click here</a>
   * A PDF Generator that transform a HTML page in a PDF archive and have a csv for data <a href="./golang/pdf-generator">click here</a>
 * C
+* Portugol
+  * Some exercices of my class of the university <a href="./portugol/algorithm-introduction/exercices/1-period/exerc1.md">click here</a>
