@@ -1,15 +1,15 @@
 programa {
   funcao inicio() {
-    real num1, num2, num3, res
+    real a, b, c, res
     
     escreva("Digite o primeiro valor\n")
-    leia(num1)
+    leia(a)
     escreva("Digite o segundo valor\n")
-    leia(num2)
+    leia(b)
     escreva("Digite o terceiro valor\n")
-    leia(num3)
+    leia(c)
 
-    res = (num1*num1)+(num2*num2)+(num3*num3)
+    res = (a*a)+(b*b)+(c*c)
     escreva(res)
   }
 }
