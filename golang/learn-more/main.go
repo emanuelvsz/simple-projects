@@ -10,9 +10,19 @@ import (
 func main() {
 	user1 := domain.NewBuilder()
 	user1.WithID(uuid.New()).WithName("Emanuel").WithAge(19)
-	user1.Build()
+	emanuel, err := user1.Build()
+	if err != nil {
+		fmt.Println("houve um erro na criação do domain")
+	}
 
-	
-	
-	fmt.Println(&user1)
+	user2 := domain.NewBuilder()
+	user2.WithID(uuid.New()).WithName("Emanuel").WithAge(19)
+	douglas, err := user1.Build()
+	if err != nil {
+		fmt.Println("houve um erro na criação do domain")
+	}
+
+	alunos := []domain.Aluno{*emanuel, *douglas}
+
+	fmt.Println(alunos)
 }
