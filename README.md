@@ -13,6 +13,8 @@
   * Rest API made by echo, that has some routes that return some data of artists and their songs  - <a href="./golang/rest-api">check here</a>
   * Some projects of a course in Udemy <a href="./golang/udemy-course">click here</a>
   * A PDF Generator that transform a HTML page in a PDF archive and have a csv for data <a href="./golang/pdf-generator">click here</a>
-* C
+* C++
+  * Fur elise by Beethoven created in C++ <a href="./c++/fur-elise-buzzer">click here</a>
+
 * Portugol
   * Some exercices of my class of the university <a href="./portugol/algorithm-introduction/exercices/1-period/exerc1.md">click here</a>
