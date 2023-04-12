@@ -1,6 +1,8 @@
 # This repository will contains some of my simple ideas in a lot of languages
 
-### So far, what you have here:
+## So far, what you have here:
+
+### Projects: 
 
 * Javascript
   * Simple game that just moves a square on the xy axis, no collision, that's all  - <a href="./javascript/walking-game">check here</a>
@@ -18,3 +20,9 @@
 
 * Portugol
   * Some exercices of my class of the university <a href="./portugol/algorithm-introduction/exercices/1-period/exerc1.md">click here</a>
+  
+### Documentations: 
+
+* Docker
+  * Anotations of an Alura course of Docker <a href="#">click here</a>
+
