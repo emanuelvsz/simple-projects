@@ -15,6 +15,8 @@
   * Rest API made by echo, that has some routes that return some data of artists and their songs  - <a href="./code/golang/rest-api">check here</a>
   * Some projects of a course in Udemy <a href="./golang/udemy-course">click here</a>
   * A PDF Generator that transform a HTML page in a PDF archive and have a csv for data <a href="./code/golang/pdf-generator">click here</a>
+  * A conversor that convert a text in a morse code and de oposite <a href="./code/golang/parse-morse">click here</a>
+  * A server that have one route that list my friends <a href="./code/golang/list-person">click here</a>
 * C++
   * Fur elise by Beethoven created in C++ <a href="./code/c++/fur-elise-buzzer.cpp">click here</a>
 
